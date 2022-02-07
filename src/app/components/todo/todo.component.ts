@@ -22,7 +22,7 @@ export class TodoComponent implements OnInit {
 
   removeTask(removeKey) {
     const removeAction = new TodoRemove(removeKey);
-    this.store.dispatch(removeAction)
+    this.store.dispatch(removeAction);
   }
 
   ngOnInit(): void {
